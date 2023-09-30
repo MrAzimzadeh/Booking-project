@@ -1,0 +1,12 @@
+C:\Users\azimz\OneDrive\Desktop\BookingApi\Booking.Core\Booking.Core\bin\Debug\net7.0\Booking.Core.deps.json
+C:\Users\azimz\OneDrive\Desktop\BookingApi\Booking.Core\Booking.Core\bin\Debug\net7.0\Booking.Core.dll
+C:\Users\azimz\OneDrive\Desktop\BookingApi\Booking.Core\Booking.Core\bin\Debug\net7.0\Booking.Core.pdb
+C:\Users\azimz\OneDrive\Desktop\BookingApi\Booking.Core\Booking.Core\obj\Debug\net7.0\Booking.Core.csproj.AssemblyReference.cache
+C:\Users\azimz\OneDrive\Desktop\BookingApi\Booking.Core\Booking.Core\obj\Debug\net7.0\Booking.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azimz\OneDrive\Desktop\BookingApi\Booking.Core\Booking.Core\obj\Debug\net7.0\Booking.Core.AssemblyInfoInputs.cache
+C:\Users\azimz\OneDrive\Desktop\BookingApi\Booking.Core\Booking.Core\obj\Debug\net7.0\Booking.Core.AssemblyInfo.cs
+C:\Users\azimz\OneDrive\Desktop\BookingApi\Booking.Core\Booking.Core\obj\Debug\net7.0\Booking.Core.csproj.CoreCompileInputs.cache
+C:\Users\azimz\OneDrive\Desktop\BookingApi\Booking.Core\Booking.Core\obj\Debug\net7.0\Booking.Core.dll
+C:\Users\azimz\OneDrive\Desktop\BookingApi\Booking.Core\Booking.Core\obj\Debug\net7.0\refint\Booking.Core.dll
+C:\Users\azimz\OneDrive\Desktop\BookingApi\Booking.Core\Booking.Core\obj\Debug\net7.0\Booking.Core.pdb
+C:\Users\azimz\OneDrive\Desktop\BookingApi\Booking.Core\Booking.Core\obj\Debug\net7.0\ref\Booking.Core.dll
