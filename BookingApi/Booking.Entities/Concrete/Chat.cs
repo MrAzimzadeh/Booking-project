@@ -1,3 +1,4 @@
+using CorePackage.Entities.Abstract;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -5,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Booking.Entities.Concrete
 {
-    public class ChatMessage
+    public class ChatMessage : IEntity
     {
         public string Id { get; set; }           
         public string SenderId { get; set; }     

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.Core\\Booking.Core.csproj": {}
+    "C:\\Users\\yusif\\OneDrive\\Masaüstü\\Booking\\Booking-project\\BookingApi\\Booking.Core\\Booking.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.Core\\Booking.Core.csproj": {
+    "C:\\Users\\yusif\\OneDrive\\Masaüstü\\Booking\\Booking-project\\BookingApi\\Booking.Core\\Booking.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.Core\\Booking.Core.csproj",
+        "projectUniqueName": "C:\\Users\\yusif\\OneDrive\\Masaüstü\\Booking\\Booking-project\\BookingApi\\Booking.Core\\Booking.Core.csproj",
         "projectName": "Booking.Core",
-        "projectPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.Core\\Booking.Core.csproj",
-        "packagesPath": "C:\\Users\\azimz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.Core\\obj\\",
+        "projectPath": "C:\\Users\\yusif\\OneDrive\\Masaüstü\\Booking\\Booking-project\\BookingApi\\Booking.Core\\Booking.Core.csproj",
+        "packagesPath": "C:\\Users\\yusif\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yusif\\OneDrive\\Masaüstü\\Booking\\Booking-project\\BookingApi\\Booking.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\azimz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yusif\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
