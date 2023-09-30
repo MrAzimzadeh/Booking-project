@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "246668798208",
+    "project_id": "booking-219e8",
+    "storage_bucket": "booking-219e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246668798208:android:5ece2161f83e2af13fabe5",
+        "android_client_info": {
+          "package_name": "com.azimzada.booking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3XKSIqNFXwztP71q1SjokVWXmfNAbpgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
