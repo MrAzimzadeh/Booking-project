@@ -68,11 +68,9 @@ class LoginFragment : Fragment() {
         auth.signInWithCredential(credential)
             .addOnCompleteListener(requireActivity()) { task ->
                 if (task.isSuccessful) {
-                    // Oturum açma başarılı
                     val user = auth.currentUser
-                    // Oturum açmış kullanıcıya yönlendirme veya başka işlemler yapabilirsiniz
                 } else {
-                    // Oturum açma başarısız
+
                 }
             }
     }
