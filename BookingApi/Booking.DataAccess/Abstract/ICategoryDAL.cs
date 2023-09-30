@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Booking.DataAccess.Abstract
 {
-    public interface IHotelDAL:  IRepositoryBase<Hotel>
+    public interface ICategoryDAL:  IRepositoryBase<Category>
     {
     }
 }

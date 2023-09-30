@@ -15,25 +15,34 @@ namespace Booking.Business.Concrete
 {
     public class HotelManager : IHotelService
     {
-        private readonly IHotelDAL
-        public IResult Add(HotelCreteDTO hotelCreteDTO)
+        private readonly IHotelDAL _hotelDAl;
+         public HotelManager(IHotelDAL hotelDAl)
         {
-            var result = _productDAL.AddProduct(userId, productAdd);
-            if (result.Success)
-            {
-                return new SuccessResult(result.Message);
+            _hotelDAl = hotelDAl;
+        }
+
+        public IResult AddHotel(Hotel hotel)
+        {
+       
+                var result = _hotelDAl.GetAll(x => x.CategoryId == hotel.CategoryId).Count;
+                if (result >= 10)
+                {
+                    return new ErrorResult();
+                }
+                _hotelDAl.Add(hotel);
+                return new SuccessResult();
             }
-            return new ErrorResult(result.Message);
-        }
 
-        public IResult Delete()
+            public IResult DeleteHotel(Hotel hotel)
         {
             throw new NotImplementedException();
         }
 
-        public IResult Update()
+        public IResult UpdateHotel(Hotel hotel)
         {
             throw new NotImplementedException();
         }
+
+    
     }
 }

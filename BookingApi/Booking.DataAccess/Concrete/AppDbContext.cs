@@ -13,7 +13,10 @@ namespace Booking.DataAccess.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Data Source=SQL5111.site4now.net;Initial Catalog=db_a9f66c_yusif817;User Id=db_a9f66c_yusif817_admin;Password=Yusif*817*");
+        optionsBuilder.UseSqlServer("Server=127.0.0.1,1433;Database= BootingDb; User Id=sa; Password=Password@12345;TrustServerCertificate=True;");
     }
-}
+
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Hotel> Hotels { get; set; }
+    }
 }

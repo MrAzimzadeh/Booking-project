@@ -1,4 +1,5 @@
-﻿using Booking.Entities.DTOs.HotelDTOs;
+﻿using Booking.Entities.Concrete;
+using Booking.Entities.DTOs.HotelDTOs;
 using CorePackage.Utilities.Results.Abstract;
 using System;
 using System.Collections.Generic;
@@ -10,8 +11,8 @@ namespace Booking.Business.Abstract
 {
    public interface IHotelService
     {
-        IResult Add(HotelCreteDTO hotelCreteDTO);
-        IResult Delete();
-        IResult Update();
+        IResult AddHotel(Hotel hotel);
+        IResult DeleteHotel(Hotel hotel);
+        IResult UpdateHotel(Hotel hotel);
     }
 }

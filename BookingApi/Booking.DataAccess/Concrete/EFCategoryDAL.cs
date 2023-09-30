@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 namespace Booking.DataAccess.Concrete
 {
-     public class EFHotelDAL : EfRepositoryBase< Hotel, AppDbContext>,IHotelDAL
+     public class EFCategoryDAL : EfRepositoryBase<Category, AppDbContext>,ICategoryDAL
     {
     }
 }

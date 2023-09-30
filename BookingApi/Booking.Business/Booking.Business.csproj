@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Booking.Core\Booking.Core.csproj" />
+    <ProjectReference Include="..\Booking.DataAccess\Booking.DataAccess.csproj" />
     <ProjectReference Include="..\Booking.Entities\Booking.Entities.csproj" />
   </ItemGroup>
 
