@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YJElntNSYnzxDESvAVL/ahbiAM4SK+tAVGtV8vnQsSAHvGDfzq2z3dZyN1IRUmt4IpBteoUPNU2P6JUPfDPJTw==",
+  "dgSpecHash": "vJ+ulznAkMAONB+xTa7XHE/yexEz7+j1KCxLz7liEhIo1ZQQXI+QntG/TNDFhEliwlqBNfLKoLUsTpWuM5usOQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\Booking.Core\\Booking.Core\\Booking.Core.csproj",
+  "projectFilePath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.Core\\Booking.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\azimz\\.nuget\\packages\\autofac\\7.1.0\\autofac.7.1.0.nupkg.sha512",
     "C:\\Users\\azimz\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\Booking.Core\\Booking.MobileApi\\Booking.MobileApi.csproj": {}
+    "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.MobileApi\\Booking.MobileApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\Booking.Core\\Booking.MobileApi\\Booking.MobileApi.csproj": {
+    "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.MobileApi\\Booking.MobileApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\Booking.Core\\Booking.MobileApi\\Booking.MobileApi.csproj",
+        "projectUniqueName": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.MobileApi\\Booking.MobileApi.csproj",
         "projectName": "Booking.MobileApi",
-        "projectPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\Booking.Core\\Booking.MobileApi\\Booking.MobileApi.csproj",
+        "projectPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.MobileApi\\Booking.MobileApi.csproj",
         "packagesPath": "C:\\Users\\azimz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\Booking.Core\\Booking.MobileApi\\obj\\",
+        "outputPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.MobileApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\azimz\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\Booking.Core\\Booking.Business\\Booking.Business.csproj",
+      "projectUniqueName": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.Business\\Booking.Business.csproj",
       "projectName": "Booking.Business",
-      "projectPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\Booking.Core\\Booking.Business\\Booking.Business.csproj",
+      "projectPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.Business\\Booking.Business.csproj",
       "packagesPath": "C:\\Users\\azimz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\Booking.Core\\Booking.Business\\obj\\",
+      "outputPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\azimz\\AppData\\Roaming\\NuGet\\NuGet.Config",

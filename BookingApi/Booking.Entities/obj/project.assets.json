@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\Booking.Entities\\Booking.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.Entities\\Booking.Entities.csproj",
       "projectName": "Booking.Entities",
-      "projectPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\Booking.Entities\\Booking.Entities.csproj",
+      "projectPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.Entities\\Booking.Entities.csproj",
       "packagesPath": "C:\\Users\\azimz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\Booking.Entities\\obj\\",
+      "outputPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\azimz\\AppData\\Roaming\\NuGet\\NuGet.Config",

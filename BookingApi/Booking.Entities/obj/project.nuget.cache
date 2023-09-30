@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h/KEaSIxp+/tVJabSdZF042bgrmUB0FVOeKkT3k34fNE5nvm7c7AvJpU+bTmGZn+YFBu2Rs7j9Jx3Ebr0E0+jw==",
+  "dgSpecHash": "lZCXYPtdXlksQN29xdPRUPeT+WIAW2+plV5il/aa4SRXcbaC/wmOt/UM6aOFNe6yYVNNvFVbxykOx1TICSII7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\Booking.Entities\\Booking.Entities.csproj",
+  "projectFilePath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.Entities\\Booking.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

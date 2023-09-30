@@ -2269,11 +2269,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\Booking.Core\\Booking.Core\\Booking.Core.csproj",
+      "projectUniqueName": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.Core\\Booking.Core.csproj",
       "projectName": "Booking.Core",
-      "projectPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\Booking.Core\\Booking.Core\\Booking.Core.csproj",
+      "projectPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.Core\\Booking.Core.csproj",
       "packagesPath": "C:\\Users\\azimz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\Booking.Core\\Booking.Core\\obj\\",
+      "outputPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\azimz\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PKY9qXYVSzVuV7boR6BSmzOvocD5HpynreIvlWO5eV1xtoZL+wh6pnnr2D6cBvil+gfwgenJY8SXaJ7BfCW4cg==",
+  "dgSpecHash": "1jDsFRjivduM2Q7dy9EC9zk7u4k/wCQNvEt8KAyiw5v0tcw66L6k8P+piB34fWaBcbz64D1+nxHHL+VmfDvzpQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\Booking.Core\\Booking.DataAccess\\Booking.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.DataAccess\\Booking.DataAccess.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

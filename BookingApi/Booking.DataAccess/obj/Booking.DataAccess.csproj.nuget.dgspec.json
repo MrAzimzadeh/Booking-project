@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\Booking.Core\\Booking.DataAccess\\Booking.DataAccess.csproj": {}
+    "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.DataAccess\\Booking.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\Booking.Core\\Booking.DataAccess\\Booking.DataAccess.csproj": {
+    "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.DataAccess\\Booking.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\Booking.Core\\Booking.DataAccess\\Booking.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.DataAccess\\Booking.DataAccess.csproj",
         "projectName": "Booking.DataAccess",
-        "projectPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\Booking.Core\\Booking.DataAccess\\Booking.DataAccess.csproj",
+        "projectPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.DataAccess\\Booking.DataAccess.csproj",
         "packagesPath": "C:\\Users\\azimz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\Booking.Core\\Booking.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\BookingApi\\BookingApi\\Booking.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\azimz\\AppData\\Roaming\\NuGet\\NuGet.Config",
