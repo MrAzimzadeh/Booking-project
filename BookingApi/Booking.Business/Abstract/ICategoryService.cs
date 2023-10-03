@@ -1,4 +1,5 @@
 ﻿using Booking.Entities.Concrete;
+using Booking.Entities.DTOs.CategoryDTOs;
 using CorePackage.Utilities.Results.Abstract;
 using System;
 using System.Collections.Generic;
@@ -10,8 +11,9 @@ namespace Booking.Business.Abstract
 {
     public interface ICategoryService
     {
-        IResult AddCategory(Category category);
+        IResult AddCategory(CategoryCreateDTO category);
         IResult DeleteCategory(Category category);
         IResult UpdateCategory(Category category);
+        List<Category> GetAll(int ? id );
     }
 }

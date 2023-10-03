@@ -1,0 +1,12 @@
+C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.Core\bin\Release\net7.0\Booking.Core.deps.json
+C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.Core\bin\Release\net7.0\Booking.Core.dll
+C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.Core\bin\Release\net7.0\Booking.Core.pdb
+C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.Core\obj\Release\net7.0\Booking.Core.csproj.AssemblyReference.cache
+C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.Core\obj\Release\net7.0\Booking.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.Core\obj\Release\net7.0\Booking.Core.AssemblyInfoInputs.cache
+C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.Core\obj\Release\net7.0\Booking.Core.AssemblyInfo.cs
+C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.Core\obj\Release\net7.0\Booking.Core.csproj.CoreCompileInputs.cache
+C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.Core\obj\Release\net7.0\Booking.Core.dll
+C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.Core\obj\Release\net7.0\refint\Booking.Core.dll
+C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.Core\obj\Release\net7.0\Booking.Core.pdb
+C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.Core\obj\Release\net7.0\ref\Booking.Core.dll

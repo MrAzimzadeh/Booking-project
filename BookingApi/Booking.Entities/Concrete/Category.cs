@@ -11,7 +11,6 @@ namespace Booking.Entities.Concrete
         public int Id { get; set; }
         public string CategoryName { get; set; }
         public string CategoryPath { get; set; }
-        public List<Hotel> Hotels { get; set; }
-
+         public List<Hotel> Hotels { get; set; }
     }
 }

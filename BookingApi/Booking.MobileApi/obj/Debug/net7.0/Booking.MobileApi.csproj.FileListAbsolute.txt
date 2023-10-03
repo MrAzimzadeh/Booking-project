@@ -101,3 +101,4 @@ C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.Mo
 C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.MobileApi\obj\Debug\net7.0\Booking.MobileApi.pdb
 C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.MobileApi\obj\Debug\net7.0\Booking.MobileApi.genruntimeconfig.cache
 C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.MobileApi\obj\Debug\net7.0\ref\Booking.MobileApi.dll
+C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.MobileApi\bin\Debug\net7.0\AutoMapper.dll

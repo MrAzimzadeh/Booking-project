@@ -11,8 +11,9 @@ namespace Booking.Business.Abstract
 {
    public interface IHotelService
     {
-        IResult AddHotel(Hotel hotel);
+        IResult AddHotel(HotelCreteDTO hotel);
         IResult DeleteHotel(Hotel hotel);
         IResult UpdateHotel(Hotel hotel);
+        IDataResult<List<HotelGetAllDTO>> GetAll();
     }
 }

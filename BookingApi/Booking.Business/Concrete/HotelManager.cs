@@ -1,5 +1,7 @@
-﻿using Booking.Business.Abstract;
+﻿using AutoMapper;
+using Booking.Business.Abstract;
 using Booking.DataAccess.Abstract;
+using Booking.DataAccess.Concrete;
 using Booking.Entities.Concrete;
 using Booking.Entities.DTOs.HotelDTOs;
 using CorePackage.Utilities.Results.Abstract;
@@ -16,26 +18,30 @@ namespace Booking.Business.Concrete
     public class HotelManager : IHotelService
     {
         private readonly IHotelDAL _hotelDAl;
-         public HotelManager(IHotelDAL hotelDAl)
+        private readonly IMapper _mapper;
+        public HotelManager(IHotelDAL hotelDAl, IMapper mapper)
         {
             _hotelDAl = hotelDAl;
+            _mapper = mapper;
         }
 
-        public IResult AddHotel(Hotel hotel)
+        public IResult AddHotel(HotelCreteDTO hotel)
         {
-       
-                var result = _hotelDAl.GetAll(x => x.CategoryId == hotel.CategoryId).Count;
-                if (result >= 10)
-                {
-                    return new ErrorResult();
-                }
-                _hotelDAl.Add(hotel);
-                return new SuccessResult();
-            }
+            var map = _mapper.Map<Hotel>(hotel);
+            _hotelDAl.Add(map);
+            return new SuccessResult("Hotel Added!");
+        }
 
-            public IResult DeleteHotel(Hotel hotel)
+        public IResult DeleteHotel(Hotel hotel)
         {
             throw new NotImplementedException();
+        }
+
+        public IDataResult<List<HotelGetAllDTO>> GetAll()
+        {
+            var hotel = _hotelDAl.GetAll();
+            var map = _mapper.Map<List<HotelGetAllDTO>>(hotel);
+            return new SuccessDataResult<List<HotelGetAllDTO>>(map);
         }
 
         public IResult UpdateHotel(Hotel hotel)
@@ -43,6 +49,6 @@ namespace Booking.Business.Concrete
             throw new NotImplementedException();
         }
 
-    
+
     }
 }
