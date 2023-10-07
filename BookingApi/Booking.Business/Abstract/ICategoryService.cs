@@ -11,9 +11,12 @@ namespace Booking.Business.Abstract
 {
     public interface ICategoryService
     {
-        IResult AddCategory(CategoryCreateDTO category);
-        IResult DeleteCategory(Category category);
-        IResult UpdateCategory(Category category);
-        List<Category> GetAll(int ? id );
+        IResult AddCategory(CategoryCreateDTO categoryCreateDTO);
+        IResult UpdateCategory(CategoryUpdateDTO categoryUpdateDTO);
+        IResult DeleteCategory(int categoryId);
+        IResult CategoryChangeStatus(int categoryId);
+        IDataResult<List<CategoryAdminListDTO>> CategoryAdminCategories();
+        IDataResult<List<CategoryHomeNavbarDTO>> GetNavbarCategories();
+        IDataResult<List<CategoryFeaturedDTO>> GetFeaturedCategories();
     }
 }

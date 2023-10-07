@@ -10,5 +10,7 @@ namespace Booking.DataAccess.Abstract
 {
     public interface ICategoryDAL:  IRepositoryBase<Category>
     {
+        List<Category> GetNavbarCategories();
+        List<Category> GetFeaturedCategories();
     }
 }

@@ -26,6 +26,9 @@ namespace Booking.Entities.Concrete
         public decimal Review { get; set; }
         public int CategoryId { get; set; }
         public Category Category { get; set; }
+        public bool Status { get; set; }
+        public bool IsFeatured { get; set; }
+        public DateTime CreatedDate { get; set; }
 
     }
 }

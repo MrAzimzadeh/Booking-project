@@ -9,7 +9,6 @@ namespace Booking.Entities.DTOs.HotelDTOs
 {
     public class HotelCreteDTO
     {
-        public int Id { get; set; }
         public string HotelName { get; set; }
         public string HotelAddress { get; set; }
         public string HotelCity { get; set; }
@@ -25,6 +24,10 @@ namespace Booking.Entities.DTOs.HotelDTOs
         public float Longitude { get; set; }
         public int CategoryId { get; set; }
         public string UserId { get; set; }
+        public bool Status { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public bool IsFeatured { get; set; }
+
 
     }
 }

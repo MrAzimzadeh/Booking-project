@@ -18,25 +18,75 @@ namespace Booking.MobileApi.Controllers
             _categoryService = categoryService;
         }
 
-        [HttpPost]
-        public IActionResult CreateCategory([FromBody] CategoryCreateDTO category)
+        [HttpPost("addcategory")]
+        public IActionResult AddCategory([FromBody] CategoryCreateDTO categoryCreateDTO)
         {
+            var result = _categoryService.AddCategory(categoryCreateDTO);
 
-            var a = _categoryService.AddCategory(category);
-            if (a.Success) return Ok(a);
-            return BadRequest(a);
+            if (result.Success)
+                return Ok(result);
 
+            return BadRequest(result);
+        }
+        [HttpPut("updatecategory")]
+        public IActionResult UpdateCategory([FromBody] CategoryUpdateDTO categoryUpdateDTO)
+        {
+            var result = _categoryService.UpdateCategory(categoryUpdateDTO);
+
+            if (result.Success)
+                return Ok(result);
+
+            return BadRequest(result);
         }
 
-
-        [HttpGet("CategoryHotel")]
-        public IActionResult GetAllCategory(int? id)
+        [HttpGet("homenavbarcategory")]
+        public IActionResult CategoryHomeNavbar()
         {
+            var result = _categoryService.GetNavbarCategories();
+            if (result.Success)
+                return Ok(result);
 
-            var a = _categoryService.GetAll(id);
-            return Ok(a);
-
-
+            return BadRequest(result);
         }
+        [HttpGet("featuredcategory")]
+        public IActionResult CategoryFeatured()
+        {
+            var result = _categoryService.GetFeaturedCategories();
+            if (result.Success)
+                return Ok(result);
+
+            return BadRequest(result);
+        }
+ 
+        [HttpGet("admincategories")]
+        public IActionResult CategoryAdminList()
+        {
+            var result = _categoryService.CategoryAdminCategories();
+            if (result.Success)
+                return Ok(result);
+
+            return BadRequest(result);
+        }
+   
+        [HttpPut("changeStatuscategory/{categoryId}")]
+        public IActionResult CategoryChangeStatus(int categoryId)
+        {
+            var result = _categoryService.CategoryChangeStatus(categoryId);
+            if (result.Success)
+                return Ok(result);
+
+            return BadRequest(result);
+        }
+   
+        [HttpDelete("deletecategory/{categoryId}")]
+        public IActionResult CategoryDelete(int categoryId)
+        {
+            var result = _categoryService.DeleteCategory(categoryId);
+            if (result.Success)
+                return Ok(result);
+
+            return BadRequest(result);
+        }
+
     }
 }

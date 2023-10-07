@@ -21,7 +21,7 @@ builder.Services.AddScoped<IHotelService, HotelManager>();
 builder.Services.AddScoped<IHotelDAL, EFHotelDAL>();
 
 builder.Services.AddScoped<ICategoryDAL, EFCategoryDAL>();
-builder.Services.AddScoped<ICategoryService, CayegoryManager>();
+builder.Services.AddScoped<ICategoryService, CategoryManager>();
 
 var mapperConfig = new MapperConfiguration(mc =>
 {

@@ -12,8 +12,13 @@ namespace Booking.Business.Abstract
    public interface IHotelService
     {
         IResult AddHotel(HotelCreteDTO hotel);
-        IResult DeleteHotel(Hotel hotel);
-        IResult UpdateHotel(Hotel hotel);
         IDataResult<List<HotelGetAllDTO>> GetAll();
+        IResult HotelUpdate(HotelUpdateDTO UpdateDTO);
+        IResult HotelDelete(int hotelId);
+        IDataResult<HotelDetailDTO> HotelDetail(int hotelId);
+        IDataResult<List<HotelFeaturedDTO>> HotelFeaturedList();
+        IDataResult<List<HotelRecentDTO>> HotelRecentList();
+        IDataResult<List<HotelFilterDTO>> HotelFilterList(int categoryId, int minPrice, int maxPrice, int hotelRoomCount);
+        IDataResult<bool> CheckHotelCount(List<int> hotelIds);
     }
 }

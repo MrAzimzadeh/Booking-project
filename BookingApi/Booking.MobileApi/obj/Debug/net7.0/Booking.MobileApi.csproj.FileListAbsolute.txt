@@ -85,7 +85,6 @@ C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.Mo
 C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.MobileApi\obj\Debug\net7.0\Booking.MobileApi.AssemblyInfoInputs.cache
 C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.MobileApi\obj\Debug\net7.0\Booking.MobileApi.AssemblyInfo.cs
 C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.MobileApi\obj\Debug\net7.0\Booking.MobileApi.csproj.CoreCompileInputs.cache
-C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.MobileApi\obj\Debug\net7.0\Booking.MobileApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.MobileApi\obj\Debug\net7.0\Booking.MobileApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.MobileApi\obj\Debug\net7.0\staticwebassets\msbuild.Booking.MobileApi.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.MobileApi\obj\Debug\net7.0\staticwebassets\msbuild.build.Booking.MobileApi.props
@@ -102,3 +101,4 @@ C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.Mo
 C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.MobileApi\obj\Debug\net7.0\Booking.MobileApi.genruntimeconfig.cache
 C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.MobileApi\obj\Debug\net7.0\ref\Booking.MobileApi.dll
 C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.MobileApi\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\yusif\OneDrive\Masaüstü\Booking\Booking-project\BookingApi\Booking.MobileApi\obj\Debug\net7.0\Booking.MobileApi.MvcApplicationPartsAssemblyInfo.cs

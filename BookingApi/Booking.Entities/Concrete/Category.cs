@@ -11,6 +11,8 @@ namespace Booking.Entities.Concrete
         public int Id { get; set; }
         public string CategoryName { get; set; }
         public string CategoryPath { get; set; }
-         public List<Hotel> Hotels { get; set; }
+        public bool Status { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public List<Hotel> Hotels { get; set; }
     }
 }

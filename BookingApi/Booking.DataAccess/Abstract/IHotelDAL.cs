@@ -10,5 +10,8 @@ namespace Booking.DataAccess.Abstract
 {
     public interface IHotelDAL:  IRepositoryBase<Hotel>
     {
+        Hotel GetHotel(int id);
+        List<Hotel> GetFeaturedHotels();
+        List<Hotel> GetRecentHotels();
     }
 }
