@@ -10,6 +10,7 @@ using CorePackage.Utilities.Results.Concrete.SuccessResults;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -37,11 +38,25 @@ namespace Booking.Business.Concrete
             throw new NotImplementedException();
         }
 
-        public IDataResult<List<HotelGetAllDTO>> GetAll()
+        public IDataResult<List<HotelGetAllDTO>> GetAll(int? categoryId)
         {
-            var hotel = _hotelDAl.GetAll();
-            var map = _mapper.Map<List<HotelGetAllDTO>>(hotel);
-            return new SuccessDataResult<List<HotelGetAllDTO>>(map);
+            if (categoryId != null)
+            {
+                var hotel = _hotelDAl.GetAll(x => x.CategoryId == categoryId);
+                var map = _mapper.Map<List<HotelGetAllDTO>>(hotel);
+                return new SuccessDataResult<List<HotelGetAllDTO>>(map);
+            }
+            else
+            {
+                var hotel = _hotelDAl.GetAll();
+                var map = _mapper.Map<List<HotelGetAllDTO>>(hotel);
+                return new SuccessDataResult<List<HotelGetAllDTO>>(map);
+            }
+        }
+
+        public List<RandomHotelDto> GetRandomProducts()
+        {
+            return _hotelDAl.GetRandomProducts();
         }
 
         public IResult UpdateHotel(Hotel hotel)

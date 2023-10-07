@@ -1,5 +1,6 @@
 ﻿using Booking.Entities.Concrete;
 using Booking.Entities.DTOs.CategoryDTOs;
+using Booking.Entities.DTOs.HotelDTOs;
 using CorePackage.Utilities.Results.Abstract;
 using System;
 using System.Collections.Generic;

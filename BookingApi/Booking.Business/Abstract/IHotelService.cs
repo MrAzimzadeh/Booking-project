@@ -14,6 +14,8 @@ namespace Booking.Business.Abstract
         IResult AddHotel(HotelCreteDTO hotel);
         IResult DeleteHotel(Hotel hotel);
         IResult UpdateHotel(Hotel hotel);
-        IDataResult<List<HotelGetAllDTO>> GetAll();
+        IDataResult<List<HotelGetAllDTO>> GetAll(int? categoryId);
+        List<RandomHotelDto> GetRandomProducts();
+
     }
 }

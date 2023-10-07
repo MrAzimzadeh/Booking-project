@@ -21,24 +21,30 @@ namespace Booking.MobileApi.Controllers
         }
 
         [HttpPost("create")]
-        public IActionResult CreateHotel([FromBody]HotelCreteDTO hotel)
+        public IActionResult CreateHotel([FromBody] HotelCreteDTO hotel)
         {
             var a = _hotelService.AddHotel(hotel);
             if (a.Success)
             {
                 return Ok(a);
             }
-            
+
             return BadRequest(a);
         }
 
         [HttpGet("PraductHotel")]
-        public IActionResult GetAllCategory()
+        public IActionResult GetAllCategory([FromQuery]int? categoryId)
         {
+            var a = _hotelService.GetAll(categoryId);
+            return Ok(a.Data);
+        }
 
-            var a =_hotelService.GetAll();
-            return Ok(a);
+        [HttpGet("randomHotel")]
 
+        public IActionResult GetRandomHotel()
+        {
+            var result = _hotelService.GetRandomProducts();
+            return Ok(result);
 
         }
 
