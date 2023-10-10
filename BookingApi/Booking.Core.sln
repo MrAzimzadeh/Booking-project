@@ -11,7 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Booking.DataAccess", "Booki
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Booking.MobileApi", "Booking.MobileApi\Booking.MobileApi.csproj", "{AC3BB161-0D80-4822-BA8E-B63C24632035}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booking.Entities", "Booking.Entities\Booking.Entities.csproj", "{36831FC1-B037-423C-9E45-73D5E31C775C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Booking.Entities", "Booking.Entities\Booking.Entities.csproj", "{36831FC1-B037-423C-9E45-73D5E31C775C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{39A45108-5FB2-4500-8A15-92F2DF843AED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "Sender\Sender.csproj", "{F4F2DEFB-5C5F-42C0-BFFB-291170FC6210}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "Consumer\Consumer.csproj", "{5EE8CF3C-2DAD-4D61-B7A2-F67683434ED0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{36831FC1-B037-423C-9E45-73D5E31C775C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36831FC1-B037-423C-9E45-73D5E31C775C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36831FC1-B037-423C-9E45-73D5E31C775C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39A45108-5FB2-4500-8A15-92F2DF843AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A45108-5FB2-4500-8A15-92F2DF843AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A45108-5FB2-4500-8A15-92F2DF843AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A45108-5FB2-4500-8A15-92F2DF843AED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4F2DEFB-5C5F-42C0-BFFB-291170FC6210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F2DEFB-5C5F-42C0-BFFB-291170FC6210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F2DEFB-5C5F-42C0-BFFB-291170FC6210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F2DEFB-5C5F-42C0-BFFB-291170FC6210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE8CF3C-2DAD-4D61-B7A2-F67683434ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE8CF3C-2DAD-4D61-B7A2-F67683434ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE8CF3C-2DAD-4D61-B7A2-F67683434ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE8CF3C-2DAD-4D61-B7A2-F67683434ED0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -20,5 +20,9 @@ namespace Booking.Business.Abstract
         IDataResult<List<HotelRecentDTO>> HotelRecentList();
         IDataResult<List<HotelFilterDTO>> HotelFilterList(int categoryId, int minPrice, int maxPrice, int hotelRoomCount);
         IDataResult<bool> CheckHotelCount(List<int> hotelIds);
+
+        List<HotelGetAllDTO> GetHotelAllById(int? categoryId);
+
+        List<HotelFilterByCategoryListDto> GetHotelFilterByCategoryList(int? categoryId, string userId);
     }
 }

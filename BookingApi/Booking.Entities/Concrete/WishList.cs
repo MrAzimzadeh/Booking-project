@@ -12,7 +12,7 @@ namespace Booking.Entities.Concrete
         public int HotelId { get; set; }
         public Hotel Hotel { get; set; }
         public string UserId { get; set; }
-        public DateTime DateTime { get; set; }
+        public DateTime CratedDate { get; set; }
         
 
     }

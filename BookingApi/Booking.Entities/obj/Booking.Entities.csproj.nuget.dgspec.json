@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yusif\\OneDrive\\Masaüstü\\Booking\\Booking-project\\BookingApi\\Booking.Entities\\Booking.Entities.csproj": {}
+    "C:\\Users\\azimz\\OneDrive\\Desktop\\book-back\\Booking-project\\BookingApi\\Booking.Entities\\Booking.Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yusif\\OneDrive\\Masaüstü\\Booking\\Booking-project\\BookingApi\\Booking.Core\\Booking.Core.csproj": {
+    "C:\\Users\\azimz\\OneDrive\\Desktop\\book-back\\Booking-project\\BookingApi\\Booking.Core\\Booking.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yusif\\OneDrive\\Masaüstü\\Booking\\Booking-project\\BookingApi\\Booking.Core\\Booking.Core.csproj",
+        "projectUniqueName": "C:\\Users\\azimz\\OneDrive\\Desktop\\book-back\\Booking-project\\BookingApi\\Booking.Core\\Booking.Core.csproj",
         "projectName": "Booking.Core",
-        "projectPath": "C:\\Users\\yusif\\OneDrive\\Masaüstü\\Booking\\Booking-project\\BookingApi\\Booking.Core\\Booking.Core.csproj",
-        "packagesPath": "C:\\Users\\yusif\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yusif\\OneDrive\\Masaüstü\\Booking\\Booking-project\\BookingApi\\Booking.Core\\obj\\",
+        "projectPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\book-back\\Booking-project\\BookingApi\\Booking.Core\\Booking.Core.csproj",
+        "packagesPath": "C:\\Users\\azimz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\book-back\\Booking-project\\BookingApi\\Booking.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\yusif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\azimz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -51,6 +51,10 @@
             "Autofac.Extras.DynamicProxy": {
               "target": "Package",
               "version": "[7.1.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Core": {
+              "target": "Package",
+              "version": "[1.1.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -97,17 +101,17 @@
         }
       }
     },
-    "C:\\Users\\yusif\\OneDrive\\Masaüstü\\Booking\\Booking-project\\BookingApi\\Booking.Entities\\Booking.Entities.csproj": {
+    "C:\\Users\\azimz\\OneDrive\\Desktop\\book-back\\Booking-project\\BookingApi\\Booking.Entities\\Booking.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yusif\\OneDrive\\Masaüstü\\Booking\\Booking-project\\BookingApi\\Booking.Entities\\Booking.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\azimz\\OneDrive\\Desktop\\book-back\\Booking-project\\BookingApi\\Booking.Entities\\Booking.Entities.csproj",
         "projectName": "Booking.Entities",
-        "projectPath": "C:\\Users\\yusif\\OneDrive\\Masaüstü\\Booking\\Booking-project\\BookingApi\\Booking.Entities\\Booking.Entities.csproj",
-        "packagesPath": "C:\\Users\\yusif\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yusif\\OneDrive\\Masaüstü\\Booking\\Booking-project\\BookingApi\\Booking.Entities\\obj\\",
+        "projectPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\book-back\\Booking-project\\BookingApi\\Booking.Entities\\Booking.Entities.csproj",
+        "packagesPath": "C:\\Users\\azimz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\book-back\\Booking-project\\BookingApi\\Booking.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\yusif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\azimz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -121,8 +125,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\yusif\\OneDrive\\Masaüstü\\Booking\\Booking-project\\BookingApi\\Booking.Core\\Booking.Core.csproj": {
-                "projectPath": "C:\\Users\\yusif\\OneDrive\\Masaüstü\\Booking\\Booking-project\\BookingApi\\Booking.Core\\Booking.Core.csproj"
+              "C:\\Users\\azimz\\OneDrive\\Desktop\\book-back\\Booking-project\\BookingApi\\Booking.Core\\Booking.Core.csproj": {
+                "projectPath": "C:\\Users\\azimz\\OneDrive\\Desktop\\book-back\\Booking-project\\BookingApi\\Booking.Core\\Booking.Core.csproj"
               }
             }
           }
@@ -137,6 +141,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.SignalR.Core": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[7.0.11, )"

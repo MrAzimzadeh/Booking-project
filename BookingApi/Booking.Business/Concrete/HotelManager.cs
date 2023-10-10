@@ -37,6 +37,16 @@ namespace Booking.Business.Concrete
             throw new NotImplementedException();
         }
 
+        public List<HotelGetAllDTO> GetHotelAllById(int? categoryId)
+        {
+            return _hotelDAl.GetHotelAllById(categoryId);
+        }
+
+        public List<HotelFilterByCategoryListDto> GetHotelFilterByCategoryList(int? categoryId, string userId)
+        {
+            return _hotelDAl.GetHotelFilterByCategoryList(categoryId, userId);
+        }
+
         public IDataResult<List<HotelGetAllDTO>> GetAll()
         {
             var hotel = _hotelDAl.GetAll();
@@ -70,7 +80,7 @@ namespace Booking.Business.Concrete
         public IDataResult<List<HotelFilterDTO>> HotelFilterList(int categoryId, int minPrice, int maxPrice, int hotelRoomCount)
         {
             var hotels = _hotelDAl
-                .GetAll(x => x.CategoryId == categoryId && x.HotelRoomPrice >= minPrice && x.HotelRoomPrice <= maxPrice && x.HotelRoomCount== hotelRoomCount).ToList();
+                .GetAll(x => x.CategoryId == categoryId && x.HotelRoomPrice >= minPrice && x.HotelRoomPrice <= maxPrice && x.HotelRoomCount == hotelRoomCount).ToList();
             var map = _mapper.Map<List<HotelFilterDTO>>(hotels);
 
             return new SuccessDataResult<List<HotelFilterDTO>>(map);

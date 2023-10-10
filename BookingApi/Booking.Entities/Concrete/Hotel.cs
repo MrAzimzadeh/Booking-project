@@ -30,5 +30,7 @@ namespace Booking.Entities.Concrete
         public bool IsFeatured { get; set; }
         public DateTime CreatedDate { get; set; }
 
+        public List<WishList> WishList{ get; set;}
+
     }
 }

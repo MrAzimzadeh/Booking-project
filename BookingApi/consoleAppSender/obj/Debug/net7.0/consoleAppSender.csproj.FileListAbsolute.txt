@@ -1,0 +1,5 @@
+C:\Users\azimz\OneDrive\Desktop\book-back\Booking-project\BookingApi\consoleAppSender\obj\Debug\net7.0\consoleAppSender.csproj.AssemblyReference.cache
+C:\Users\azimz\OneDrive\Desktop\book-back\Booking-project\BookingApi\consoleAppSender\obj\Debug\net7.0\consoleAppSender.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azimz\OneDrive\Desktop\book-back\Booking-project\BookingApi\consoleAppSender\obj\Debug\net7.0\consoleAppSender.AssemblyInfoInputs.cache
+C:\Users\azimz\OneDrive\Desktop\book-back\Booking-project\BookingApi\consoleAppSender\obj\Debug\net7.0\consoleAppSender.AssemblyInfo.cs
+C:\Users\azimz\OneDrive\Desktop\book-back\Booking-project\BookingApi\consoleAppSender\obj\Debug\net7.0\consoleAppSender.csproj.CoreCompileInputs.cache

@@ -63,9 +63,9 @@ namespace Booking.MobileApi.Controllers
         {
             var result = _categoryService.CategoryAdminCategories();
             if (result.Success)
-                return Ok(result);
+                return Ok(result.Data);
 
-            return BadRequest(result);
+            return BadRequest(result.Data);
         }
    
         [HttpPut("changeStatuscategory/{categoryId}")]

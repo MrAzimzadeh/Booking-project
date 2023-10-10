@@ -21,22 +21,22 @@ namespace Booking.MobileApi.Controllers
         }
 
         [HttpPost("create")]
-        public IActionResult CreateHotel([FromBody]HotelCreteDTO hotel)
+        public IActionResult CreateHotel([FromBody] HotelCreteDTO hotel)
         {
             var a = _hotelService.AddHotel(hotel);
             if (a.Success)
             {
                 return Ok(a);
             }
-            
+
             return BadRequest(a);
         }
 
-        [HttpGet("PraductHotel")]
+        [HttpGet("Salamm")]
         public IActionResult GetAllCategory()
         {
 
-            var a =_hotelService.GetAll();
+            var a = _hotelService.GetAll();
             return Ok(a);
 
 
@@ -79,16 +79,16 @@ namespace Booking.MobileApi.Controllers
                 return Ok(product);
             return BadRequest(product);
         }
-      
+
         [HttpGet("filterhotels")]
-        public IActionResult HotelFilter([FromQuery] int categoryId, [FromQuery] int minPrice, [FromQuery] int maxPrice , [FromQuery] int hotelRoomCount)
+        public IActionResult HotelFilter([FromQuery] int categoryId, [FromQuery] int minPrice, [FromQuery] int maxPrice, [FromQuery] int hotelRoomCount)
         {
             var hotel = _hotelService.HotelFilterList(categoryId, minPrice, maxPrice, hotelRoomCount);
             if (hotel.Success)
                 return Ok(hotel);
             return BadRequest(hotel);
         }
-       
+
         [HttpDelete("deletehotel/{hotelId}")]
         public IActionResult Delete(int hotelId)
         {
@@ -98,6 +98,23 @@ namespace Booking.MobileApi.Controllers
 
             return BadRequest(result);
         }
+
+        [HttpGet("RandomHotel")]
+
+        public IActionResult GetRandomHotels([FromQuery] int? categoryId)
+        {
+            var result = _hotelService.GetHotelAllById(categoryId);
+            return Ok(result);
+        }
+
+        [HttpGet("PraductHotel")]
+        public IActionResult MainHotelData([FromQuery] int? categoryId , string userId)
+        {
+            var result = _hotelService.GetHotelFilterByCategoryList(categoryId, userId);
+            return Ok(result);
+        }
+
+
 
     }
 }

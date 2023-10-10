@@ -18,5 +18,14 @@ namespace Booking.DataAccess.Concrete
 
         public DbSet<Category> Categories { get; set; }
         public DbSet<Hotel> Hotels { get; set; }
+        public DbSet<Collection> Collections { get; set; }
+
+        public DbSet<HotelPicture> HotelPictures { get; set; }
+        public DbSet<WishList> WishLists { get; set; }
+
+
+
+
+
     }
 }
